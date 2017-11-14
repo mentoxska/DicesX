@@ -1,1 +1,2 @@
 # DicesX
+Simple dices app

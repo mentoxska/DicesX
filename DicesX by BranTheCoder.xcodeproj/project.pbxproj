@@ -12,6 +12,7 @@
 		A51468801FA10607005C0880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A514687E1FA10607005C0880 /* Main.storyboard */; };
 		A51468821FA10607005C0880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51468811FA10607005C0880 /* Assets.xcassets */; };
 		A51468851FA10607005C0880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51468831FA10607005C0880 /* LaunchScreen.storyboard */; };
+		A58809CD1FAB5D670036749B /* roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A58809CC1FAB5D660036749B /* roll.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A51468811FA10607005C0880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51468841FA10607005C0880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A51468861FA10607005C0880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58809CC1FAB5D660036749B /* roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roll.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A50F0EFE1FAA710E0086331B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A514686E1FA10606005C0880 = {
 			isa = PBXGroup;
 			children = (
 				A51468791FA10607005C0880 /* DicesX by BranTheCoder */,
 				A51468781FA10607005C0880 /* Products */,
+				A50F0EFE1FAA710E0086331B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +67,20 @@
 				A514687A1FA10607005C0880 /* AppDelegate.swift */,
 				A514687C1FA10607005C0880 /* ViewController.swift */,
 				A514687E1FA10607005C0880 /* Main.storyboard */,
-				A51468811FA10607005C0880 /* Assets.xcassets */,
+				A58809CE1FAB5E020036749B /* Sounds */,
 				A51468831FA10607005C0880 /* LaunchScreen.storyboard */,
+				A51468811FA10607005C0880 /* Assets.xcassets */,
 				A51468861FA10607005C0880 /* Info.plist */,
 			);
 			path = "DicesX by BranTheCoder";
+			sourceTree = "<group>";
+		};
+		A58809CE1FAB5E020036749B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A58809CC1FAB5D660036749B /* roll.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +116,11 @@
 					A51468761FA10606005C0880 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -126,6 +150,7 @@
 				A51468851FA10607005C0880 /* LaunchScreen.storyboard in Resources */,
 				A51468821FA10607005C0880 /* Assets.xcassets in Resources */,
 				A51468801FA10607005C0880 /* Main.storyboard in Resources */,
+				A58809CD1FAB5D670036749B /* roll.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
